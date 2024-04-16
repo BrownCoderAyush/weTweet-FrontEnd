@@ -1,13 +1,16 @@
-import { useState } from 'react'
+
+import Navbar from './components/Navbar/Navbar';
 import WeTweetApp from './components/WeTweetApp';
-import Card from './components/PostCard';
+import CustomRoutes from './routes/routes';
+import './App.css'
+
 function App() {
 
 
   return (
     <>
-      <WeTweetApp/>
-      <Card/>
+      <Navbar/>
+      <CustomRoutes/>
     </>
   )
 }
